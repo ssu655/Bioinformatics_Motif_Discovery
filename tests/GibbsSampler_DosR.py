@@ -6,7 +6,7 @@ import time
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from algorithms.Utils import read_data_file
-from algorithms.GillsSampler import GibbsSampler
+from algorithms.GibbsSampler import GibbsSampler
 
 def main():
 

@@ -35,6 +35,8 @@ Bioinformatics-motif-discovery/
 	- Demo.ipynb
 - README.md
 - .gitignore
+- requirements.txt
+- LICENSE
 
 ————
 
@@ -50,13 +52,14 @@ Algorithms Implemented
 
 ————
 
-Example Applications
+Example Datasets of Implementations 
 
 - E. coli genome – find repeated motifs in clumps  
 - Salmonella genome – locate the origin of replication  
-- DosR regulon (M. tuberculosis)** – discover regulatory motifs using Gibbs Sampling and Randomized Motif Search  
+- DosR regulon (M. tuberculosis)  – discover regulatory motifs using Gibbs Sampling and Randomized Motif Search  
+- Subtle motif datasete - an artifically constructed DNA dataset with a subtle hidden motif
 
-A full demonstration is provided in notebooks/Motif_Discovery.ipynb
+A full demonstration is provided in notebooks/Demo.ipynb
 
 ————
 
