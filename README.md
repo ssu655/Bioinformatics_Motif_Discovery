@@ -10,22 +10,22 @@ The contents are adapted from the bioinformatics MOOC “Finding Hidden Messages
 Project Structure
 
 Bioinformatics-motif-discovery/
-│
-├── algorithms/
-│   ├── __init__.py  
-│   ├── Utils.py
-│   ├── GibbsSampler.py
-│   ├── GreedyMotifSearch.py
-│   ├── MedianString.py
-│   ├── MotifEnumeration.py
-│   └── RandomizedMotifSearch.py
-├── datasets/
+-│
+-├── algorithms/ 
+-│   ├── __init__.py  
+-│   ├── Utils.py 
+-│   ├── GibbsSampler.py 
+-│   ├── GreedyMotifSearch.py 
+-│   ├── MedianString.py 
+-│   ├── MotifEnumeration.py 
+-│   └── RandomizedMotifSearch.py 
+-├── datasets/
 │   ├── DosR.txt
 │   ├── E_coli.txt
 │   ├── Salmonella_enterica.txt
 │   └── subtle_motif_dataset.txt
 ├── tests/
-│   ├── FindRepeatedMotifs_EColiGenome.py
+│   ├── FindRepeatedMotifs_EColiGenome.py \n
 │   ├── FindingOri_SalmonellaGenome.py
 │   ├── GreedyMotifSearch_SubtleMotif.py
 │   ├── MotifEnumeration_SubtleMotif.py
@@ -39,13 +39,13 @@ Bioinformatics-motif-discovery/
 
 Algorithms Implemented
 
-- Clump Finding  – detecting overrepresented k-mers in genomic windows  
-- Replication Origin Finder  – discovering Ori regions  
-- Motif Enumeration – exhaustive motif finding  
-- Median String – brute force optimal motif search  
-- Greedy Motif Search – heuristic motif search  
+- Clump Finding  		– detecting overrepresented k-mers in genomic windows  
+- Replication Origin Finder  – discovering the region of Replication Origin  
+- Motif Enumeration 		– exhaustive motif finding 
+- Median String 		– brute force optimal motif search  
+- Greedy Motif Search 	– heuristic motif search  
 - Randomized Motif Search – stochastic search for motifs  
-- Gibbs Sampler – probabilistic motif discovery  
+- Gibbs Sampler 		– probabilistic motif discovery  
 
 ————
 
@@ -63,7 +63,7 @@ Installation
 
 Clone the repository:
 bash
-git clone https://github.com/yourusername/bioinformatics-motif-discovery.git
+git clone https://github.com/ssu655/bioinformatics-motif-discovery.git
 cd bioinformatics-motif-discovery
 
 python -m venv venv
