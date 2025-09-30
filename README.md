@@ -63,21 +63,24 @@ A full demonstration is provided in notebooks/Motif_Discovery.ipynb
 Installation
 
 Clone the repository:
-'''
+```
 git clone https://github.com/ssu655/bioinformatics-motif-discovery.git
 cd bioinformatics-motif-discovery
-'''
+```
+
 Create and activate the virtual environment
-'''
+```
 python -m venv venv
 source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
-'''
+```
+
 Run the demo jupyter notebook
-'''
+```
 jupyter notebook notebooks/Demo.ipynb
-'''
+```
+
 ————
 
 Dependencies
