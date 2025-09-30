@@ -10,22 +10,21 @@ The contents are adapted from the bioinformatics MOOC “Finding Hidden Messages
 Project Structure
 
 Bioinformatics-motif-discovery/
--│
--├── algorithms/ 
--│   ├── __init__.py  
--│   ├── Utils.py 
--│   ├── GibbsSampler.py 
--│   ├── GreedyMotifSearch.py 
--│   ├── MedianString.py 
--│   ├── MotifEnumeration.py 
--│   └── RandomizedMotifSearch.py 
--├── datasets/
+—— algorithms/ 
+———— __init__.py  
+———— Utils.py 
+———— GibbsSampler.py 
+———— GreedyMotifSearch.py 
+———— MedianString.py 
+———— MotifEnumeration.py 
+———— RandomizedMotifSearch.py 
+—— datasets/
 │   ├── DosR.txt
 │   ├── E_coli.txt
 │   ├── Salmonella_enterica.txt
 │   └── subtle_motif_dataset.txt
 ├── tests/
-│   ├── FindRepeatedMotifs_EColiGenome.py \n
+│   ├── FindRepeatedMotifs_EColiGenome.py
 │   ├── FindingOri_SalmonellaGenome.py
 │   ├── GreedyMotifSearch_SubtleMotif.py
 │   ├── MotifEnumeration_SubtleMotif.py
@@ -62,14 +61,19 @@ A full demonstration is provided in notebooks/Motif_Discovery.ipynb
 Installation
 
 Clone the repository:
-bash
+
 git clone https://github.com/ssu655/bioinformatics-motif-discovery.git
+
 cd bioinformatics-motif-discovery
 
 python -m venv venv
+
 source venv/bin/activate   # On Mac/Linux
+
 venv\Scripts\activate      # On Windows
+
 pip install -r requirements.txt
+
 jupyter notebook notebooks/Demo.ipynb
 
 ————
@@ -77,5 +81,7 @@ jupyter notebook notebooks/Demo.ipynb
 Dependencies
 
 Python 3.8+
+
 Jupyter Notebook (for Demo purposes)
+
 See requirements.txt for the full list.
