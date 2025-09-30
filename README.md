@@ -10,28 +10,51 @@ The contents are adapted from the bioinformatics MOOC “Finding Hidden Messages
 Project Structure
 
 Bioinformatics-motif-discovery/
-—— algorithms/ 
-———— __init__.py  
-———— Utils.py 
-———— GibbsSampler.py 
-———— GreedyMotifSearch.py 
-———— MedianString.py 
-———— MotifEnumeration.py 
-———— RandomizedMotifSearch.py 
-—— datasets/
+
+├── algorithms/ 
+
+│   ├──  __init__.py  
+
+│   ├──  Utils.py 
+
+│   ├──  GibbsSampler.py 
+
+│   ├──  GreedyMotifSearch.py 
+
+│   ├──  MedianString.py 
+
+│   ├──  MotifEnumeration.py 
+
+│   └──  RandomizedMotifSearch.py 
+
+├── datasets/
+
 │   ├── DosR.txt
+
 │   ├── E_coli.txt
+
 │   ├── Salmonella_enterica.txt
+
 │   └── subtle_motif_dataset.txt
+
 ├── tests/
+
 │   ├── FindRepeatedMotifs_EColiGenome.py
+
 │   ├── FindingOri_SalmonellaGenome.py
+
 │   ├── GreedyMotifSearch_SubtleMotif.py
+
 │   ├── MotifEnumeration_SubtleMotif.py
+
 │   ├── MedianString_SubtleMotif.py
+
 │   ├── RandomizedMotifSearch_DosR.py
+
 │   └── GibbsSampler_DosR.py
+
 ├── notebooks/
+
 └── README
 
 ————
