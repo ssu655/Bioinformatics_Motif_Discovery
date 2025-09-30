@@ -1,1 +1,81 @@
 # Bioinformatics_Motif_Discovery
+This repository contains my implementations of some classic motif discovery algorithms. 
+
+The goal is to showcase my ability to process genomic data and implement computational algorithms for finding motifs in DNA sequences.
+
+The contents are adapted from the bioinformatics MOOC “Finding Hidden Messages in DNA” 
+
+————
+
+Project Structure
+
+Bioinformatics-motif-discovery/
+│
+├── algorithms/
+│   ├── __init__.py  
+│   ├── Utils.py
+│   ├── GibbsSampler.py
+│   ├── GreedyMotifSearch.py
+│   ├── MedianString.py
+│   ├── MotifEnumeration.py
+│   └── RandomizedMotifSearch.py
+├── datasets/
+│   ├── DosR.txt
+│   ├── E_coli.txt
+│   ├── Salmonella_enterica.txt
+│   └── subtle_motif_dataset.txt
+├── tests/
+│   ├── FindRepeatedMotifs_EColiGenome.py
+│   ├── FindingOri_SalmonellaGenome.py
+│   ├── GreedyMotifSearch_SubtleMotif.py
+│   ├── MotifEnumeration_SubtleMotif.py
+│   ├── MedianString_SubtleMotif.py
+│   ├── RandomizedMotifSearch_DosR.py
+│   └── GibbsSampler_DosR.py
+├── notebooks/
+└── README
+
+————
+
+Algorithms Implemented
+
+- Clump Finding  – detecting overrepresented k-mers in genomic windows  
+- Replication Origin Finder  – discovering Ori regions  
+- Motif Enumeration – exhaustive motif finding  
+- Median String – brute force optimal motif search  
+- Greedy Motif Search – heuristic motif search  
+- Randomized Motif Search – stochastic search for motifs  
+- Gibbs Sampler – probabilistic motif discovery  
+
+————
+
+Example Applications
+
+- E. coli genome – find repeated motifs in clumps  
+- Salmonella genome – locate the origin of replication  
+- DosR regulon (M. tuberculosis)** – discover regulatory motifs using Gibbs Sampling and Randomized Motif Search  
+
+A full demonstration is provided in notebooks/Motif_Discovery.ipynb
+
+————
+
+Installation
+
+Clone the repository:
+bash
+git clone https://github.com/yourusername/bioinformatics-motif-discovery.git
+cd bioinformatics-motif-discovery
+
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+pip install -r requirements.txt
+jupyter notebook notebooks/Demo.ipynb
+
+————
+
+Dependencies
+
+Python 3.8+
+Jupyter Notebook (for Demo purposes)
+See requirements.txt for the full list.
